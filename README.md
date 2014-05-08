@@ -1,4 +1,4 @@
 brianmchan.github.io
 ===================
 
-Personal website using the <a href="http://getbootstrap.com/">Twitter bootstrap framework</a>.
+Personal <a href="http://brianmchan.github.io/">website</a> using the <a href="http://getbootstrap.com/">Twitter bootstrap framework</a>.
