@@ -141,9 +141,13 @@ p.copyright {
 }
 
 .about-me {
-    padding-top 50px;
+    padding-top: 40px;
 }
 
 .projects p {
     padding-bottom: 20px;
+}
+
+.projects {
+    padding-top: 20px;
 }
