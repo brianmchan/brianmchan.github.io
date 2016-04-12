@@ -1,0 +1,71 @@
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Local Weather App</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link href="localWeather.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+
+		<div class="container-fluid">
+			<h1>Local Weather App</h1>
+
+			<h3 id="location"></h3>
+
+			<div id="iconTemp" class="text-center">
+				<div id="icon"></div>
+				<div id="temp"></div>
+			</div>
+
+			<div class="weatherInfo">
+				<div class="col-sm-4">
+					<div class="well">
+						<p class="lead">Conditions</p>
+						<p id="conditions"></p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="well">
+						<p class="lead">Wind</p>
+						<p id="wind"></p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="well">
+						<p class="lead">Humidity</p>
+						<p id="humidity"></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="text-center" id="tempBtn">
+				<button type="button" class="btn btn-default btn-primary">Celsius/Fahrenheit</button>
+			</div>
+
+		</div>
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   
+        crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <script src="localWeather.js" type="text/javascript"></script>
+	</body>
+</html>

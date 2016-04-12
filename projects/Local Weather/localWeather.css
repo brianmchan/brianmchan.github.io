@@ -1,0 +1,20 @@
+h1, h3, .well {
+	text-align: center;
+}
+
+.weatherInfo {
+	margin-top: 20px;
+}
+
+.tempBtn {
+	margin-top: 170px;
+}
+
+body {
+	background: url("http://www.siwallpaperhd.com/wp-content/uploads/2016/02/beautiful_mountain_scenery_wallpaper_hd.jpg");
+	background-size: cover;
+}
+
+.well {
+	background-color: #CFD8DC;
+}
